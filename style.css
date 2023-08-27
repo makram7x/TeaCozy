@@ -1,0 +1,168 @@
+body{
+    background-color: burlywood;
+    margin: 0 auto;
+    font-family:Helvetica;
+    color: seashell;
+    font-size:22px;
+}
+
+.header{
+    overflow: hidden;
+    background-color:saddlebrown;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    
+}
+
+.header-image{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+
+}
+
+.header-list{
+    padding: 5px;
+    text-align: right;
+    color: antiquewhite;
+    
+    margin-left: auto;
+    word-spacing: 5px;
+}
+.l, .m, .f{
+        margin-right: 10px;
+        text-decoration: underline;
+        color: aliceblue;
+}
+a{
+    color: seashell;
+}
+
+.mission{
+    background-image: url("background.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 700px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 0;
+}
+
+.image-caption{
+
+    background-color: saddlebrown;
+    text-align: center;
+    display: block;
+    position: relative;
+    top:50%;
+    
+    padding:1px;
+    
+}
+
+.month{
+    width:1000px;
+    height: 700px;
+    text-align: center;
+    margin:auto;
+}
+.pics{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+
+.pic {
+    width: 300px;
+    height: 200px;
+}
+.pic img {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.pics2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-left: 170px;
+    margin-right: 170px;
+
+}
+
+.pic1 {
+    width: 300px;
+    height: 200px;
+}
+
+.pic1 img {
+    width: 100%;
+    height: 100%; 
+} 
+figcaption{
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.location{
+    background-image: url('locations-background.jpg');
+    background-position: center;
+    background-size:cover;
+    display: block;
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.downtown, .east-bayside, .oakdale{
+    background-color: saddlebrown;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 15px;
+    padding-left: 9px;
+    padding-right: 9px;
+    
+}
+.downtown{
+    margin-left: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.oakdale{
+    margin-right: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.flex h4{
+    margin-top: 50px;
+}
+aside{
+    text-align: center;
+}
+aside h4{
+    text-align: left;
+}
+
